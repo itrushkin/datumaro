@@ -12,6 +12,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   (<https://github.com/openvinotoolkit/datumaro/pull/1619>)
 - Add PseudoLabeling transform for unlabeled dataset
   (<https://github.com/openvinotoolkit/datumaro/pull/1594>)
+- Convert Cuboid2D annotation to/from 3D data
+  (<https://github.com/openvinotoolkit/datumaro/pull/1639>)
 - Add label groups for hierarchical classification in ImageNet
   (<https://github.com/openvinotoolkit/datumaro/pull/1645>)
 
@@ -26,6 +28,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   (<https://github.com/openvinotoolkit/datumaro/pull/1643>)
 
 ### Bug fixes
+- Fix assertion to compare hashkeys against expected value
+  (<https://github.com/openvinotoolkit/datumaro/pull/1641>)
 
 ## Q4 2024 Release 1.9.1
 ### Enhancements
