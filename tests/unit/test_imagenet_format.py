@@ -185,9 +185,8 @@ class ImagenetImporterTest:
         label_categories = LabelCategories.from_iterable(
             ("label_0", "label_1", f"{Path('label_1', 'label_1_1')}")
         )
-        label_categories.label_groups = [
-            LabelCategories.LabelGroup(name="label_1", labels=["label_1_1"]),
-        ]
+        label_categories[-1].parent = "label_1"
+        label_categories.add_label_group(name="label_1", labels=["label_1_1"], group_type=0)
 
         return Dataset.from_iterable(
             [
